@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  
+  
+  <test name="Test Case 1">
+    <parameter name = "browserName" value= "IE"/>
+    <parameter name = "userName"  value="Babek H"/>
+  <classes>
+      <class name="testNGGroupID.testNG.LoginLogout"/>
+      <class name="testNGGroupID.testNG.RegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Test Case 2">
+   
+  <classes>
+      <class name="testNGGroupID.testNG.LoginTest"/>
+      <class name="testNGGroupID.testNG.RegistrationTest"/>
+  </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

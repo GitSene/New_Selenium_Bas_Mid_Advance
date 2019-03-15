@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Registration test (failed)">
+    <parameter name="browserName" value="IE"/>
+    <parameter name="userName" value="Babek H"/>
+    <classes>
+      <class name="testNGGroupID.testNG.LoginLogout">
+        <methods>
+          <include name="logingTestWithCorrectCredentials" invocation-numbers="0 3"/>
+          <include name="SelectBrowser"/>
+        </methods>
+      </class> <!-- testNGGroupID.testNG.LoginLogout -->
+    </classes>
+  </test> <!-- Registration test (failed) -->
+</suite> <!-- Failed suite [Suite] -->
