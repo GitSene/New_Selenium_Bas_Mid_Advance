@@ -21,12 +21,12 @@ public class RobotToDownload {
 			
 			Robot robot = new Robot();
 			robot.delay(4000);
-			robot.keyPress(KeyEvent.VK_DOWN);
+			robot.keyPress(KeyEvent.VK_DOWN); // press down arrow key
 			robot.delay(4000);
-			robot.keyPress(KeyEvent.VK_TAB);
-			robot.keyPress(KeyEvent.VK_TAB);
+			//robot.keyPress(KeyEvent.VK_TAB);
+			robot.keyPress(KeyEvent.VK_TAB); // press TAB key
 			robot.delay(4000);
-			robot.keyPress(KeyEvent.VK_ENTER);
+			robot.keyPress(KeyEvent.VK_ENTER); // Press Enter
 	}
 
 }

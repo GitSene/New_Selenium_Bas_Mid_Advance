@@ -1,6 +1,6 @@
 package BasicJava;
 
-public class ConditionalOerators {
+public class ConditionalOperators {
 
 	public static void main(String[] args) {
 		// Applying conditional operator
