@@ -42,8 +42,9 @@ public class LoginLogout {
   }
   
  @Parameters({"browserName", "userName"})
-  @BeforeTest
- public void SelectBrowser(String broweser, String name ){
+ 
+  @BeforeTest 
+  public void SelectBrowser(String broweser, String name ){
 	//String broweser ="Fairefox";
 	 System.out.println("Hi " + name);
 	if(broweser.contains("Fairefox")) {

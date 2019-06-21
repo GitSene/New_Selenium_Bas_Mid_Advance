@@ -13,7 +13,7 @@ public class LoginLogout {
       WebDriver driver = new FirefoxDriver();
 	  driver.manage().timeouts().implicitlyWait(5,TimeUnit.SECONDS);
 		
-		
+	System.getProperty("webdriver.gecko.driver","C:\\Users\\babek\\git\\Selenioum-\\Selenium\\geckodriver.exe");
 	 driver.get("http://newtours.demoaut.com/");
 	 driver.findElement(By.name("userName")).sendKeys("a");
 	 driver.findElement(By.name("password")).sendKeys("a");
